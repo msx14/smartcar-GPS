@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Msx1 861821, 861821, LIC=9N012-99472-UKCB6-DG0MC-NZ0PL-M0WCG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      CMSIS_AGDI.dll V1.25.7.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\86182\Desktop\AI.car.rt1021\seekfree_test_rt1021 4.0camera\Project\MDK\RT102X.uvprojx
+Project File Date:  08/09/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\MDK\ARM\ARMCC\Bin'
+Build target 'nor_zf_ram_v5'
+compiling main.c...
+..\CODE\ADCollection.h(15): warning:  #1295-D: Deprecated declaration train_ad_collection - give arg types
+  void train_ad_collection();
+..\CODE\ADCollection.h(16): warning:  #1295-D: Deprecated declaration data_send - give arg types
+  void  data_send();
+..\CODE\Init.h(4): warning:  #1295-D: Deprecated declaration system_init - give arg types
+   void system_init();
+..\CODE\SmotorControl.h(4): warning:  #1295-D: Deprecated declaration velocity_type_choose - give arg types
+  int velocity_type_choose();
+..\CODE\SmotorControl.h(5): warning:  #1295-D: Deprecated declaration train_smotor_control - give arg types
+  void train_smotor_control(); //Í¨?ý³?Ç°Õ°?ç¸Ð¼??ã¶æ»ú´ò½?
+..\CODE\SmotorControl.h(6): warning:  #1295-D: Deprecated declaration short_adc_judge - give arg types
+  void short_adc_judge();//Í¨?ý¶?Ç°Õ°?ç¸Ð¼??ã¶æ»ú´ò½?
+..\CODE\SmotorControl.h(7): warning:  #1295-D: Deprecated declaration cie_data_get - give arg types
+  void cie_data_get();    //´«?ä²É¼¯µ½µÄµç¸?Öµµ½Ä£????
+..\CODE\MCP4452.h(111): warning:  #1295-D: Deprecated declaration MCP4452_all_init - give arg types
+  void MCP4452_all_init();               //Á½Æ¬Í¬Ê±??Ê¼»¯
+..\CODE\MCP4452.h(116): warning:  #1295-D: Deprecated declaration MCP4452_set_all_on - give arg types
+  void MCP4452_set_all_on();
+..\CODE\MCP4452.h(122): warning:  #1295-D: Deprecated declaration MCP4452_set_all_FScale - give arg types
+  void MCP4452_set_all_FScale();
+..\CODE\MCP4452.h(132): warning:  #1295-D: Deprecated declaration MCP4452_ADC_self_steady - give arg types
+  void MCP4452_ADC_self_steady();
+..\CODE\Bluetooth.h(49): warning:  #1295-D: Deprecated declaration BluetoothInt - give arg types
+  void BluetoothInt();
+..\USER\src\main.c(192): warning:  #550-D: variable "t1" was set but never used
+  	uint32_t t0, t1;
+..\USER\src\main.c(307): warning:  #177-D: variable "g_out16" was declared but never referenced
+  				int16_t *g_out16 = (int16_t *)g_out;
+..\USER\src\main.c(335): warning:  #177-D: variable "ch" was declared but never referenced
+  	 char ch;
+..\USER\src\main.c(336): warning:  #177-D: variable "tstCtx" was declared but never referenced
+  	TestCtx_t tstCtx;
+..\USER\src\main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=75880 RO-data=9508 RW-data=1484 ZI-data=5956  
+".\Objects\RT102X.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\86182\Desktop\AI.car.rt1021\seekfree_test_rt1021 4.0camera\Project\MDK\RTE
+  D:\MDK\ARM\PACK\NXP\MIMXRT1021_DFP\12.1.0
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

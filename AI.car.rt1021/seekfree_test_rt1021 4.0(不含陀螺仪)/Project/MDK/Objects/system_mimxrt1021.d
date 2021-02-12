@@ -1,0 +1,11 @@
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\deceive\system_MIMXRT1021.c
+.\objects\system_mimxrt1021.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\deceive\fsl_device_registers.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\deceive\MIMXRT1021.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\CMSIS\Include\core_cm7.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\CMSIS\Include\cmsis_version.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\CMSIS\Include\cmsis_compiler.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\CMSIS\Include\cmsis_armcc.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\CMSIS\Include\mpu_armv7.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\deceive\system_MIMXRT1021.h
+.\objects\system_mimxrt1021.o: ..\..\Libraries\librares\deceive\MIMXRT1021_features.h
